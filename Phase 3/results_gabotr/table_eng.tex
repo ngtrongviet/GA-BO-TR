@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{Engineering design problems — median final regret (IQR across 10 seeds).}
+\label{tab:eng}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrr}
+\toprule
+Method & \textbf{PressureVessel} & \textbf{SpeedReducer} & \textbf{TensionSpring} & \textbf{WeldedBeam} \\
+\midrule
+Constrained-BO (cEI) & \textbf{78.490 (119.408)} & \textbf{1.873 (0.120)} & \textbf{0.008 (0.019)} & \textbf{0.259 (0.452)} \\
+divTuRBO & 14137.223 (17218.208) & 204.082 (134.276) & 0.010 (0.027) & 2.530 (1.944) \\
+TuRBO-1 & 15598.919 (5777.477) & 274.170 (75.256) & 0.011 (0.026) & 2.466 (1.789) \\
+GA-BO-TR (ELA-γ) & 18123.548 (10197.245) & 185.029 (45.621) & 0.013 (0.038) & 2.678 (4.067) \\
+HEBO & 16926.706 (10039.519) & 120.395 (32.243) & 0.010 (0.015) & 4.351 (3.215) \\
+GA-BO-TR (cosine γ) & 18742.300 (23280.873) & 196.889 (83.891) & 0.014 (0.087) & 3.615 (3.492) \\
+Random & 12487.281 (2596.795) & 2965.082 (1699.882) & 287826.387 (631566.066) & 4.104 (1.057) \\
+Standard-BO(qLogEI) & 32492.158 (36202.174) & 228.605 (75.944) & 1226.037 (18711.720) & 3.443 (2.298) \\
+CMA-ES & 20212.442 (20576.745) & 1060.014 (1415.625) & 0.023 (0.035) & 3.658 (2.271) \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

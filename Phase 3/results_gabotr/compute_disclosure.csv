@@ -1,0 +1,28 @@
+Suite,Method,Runs,Total wall-time (h),Per-run mean (s)
+BBOB,HEBO,240,19.954,299.31
+BBOB,Standard-BO(qLogEI),240,18.512,277.67
+BBOB,GA-BO-TR (no diversity),240,5.217,78.26
+BBOB,GA-BO-TR (ELA-γ),240,5.061,75.92
+BBOB,GA-BO-TR (cosine γ),240,4.979,74.69
+BBOB,"GA-BO (no TR, cosine γ)",240,4.735,71.02
+BBOB,divTuRBO,240,2.567,38.5
+BBOB,TuRBO-1,240,2.554,38.31
+BBOB,CMA-ES,240,0.001,0.02
+Engineering,Constrained-BO (cEI),40,34.393,3095.35
+Engineering,Standard-BO(qLogEI),40,1.136,102.22
+Engineering,HEBO,40,0.872,78.51
+Engineering,GA-BO-TR (ELA-γ),40,0.226,20.3
+Engineering,GA-BO-TR (cosine γ),40,0.222,20.01
+Engineering,TuRBO-1,40,0.114,10.28
+Engineering,divTuRBO,40,0.11,9.91
+Engineering,CMA-ES,40,0.0,0.01
+Engineering,Random,40,0.0,0.0
+Synthetic,Standard-BO(qLogEI),135,4.097,109.24
+Synthetic,HEBO,135,3.422,91.27
+Synthetic,GA-BO-TR (ELA-γ),135,0.946,25.23
+Synthetic,GA-BO-TR (cosine γ),135,0.926,24.69
+Synthetic,TuRBO-1,135,0.355,9.47
+Synthetic,divTuRBO,135,0.348,9.28
+Synthetic,Optuna-TPE,135,0.009,0.24
+Synthetic,CMA-ES,135,0.0,0.01
+Synthetic,Random,135,0.0,0.0

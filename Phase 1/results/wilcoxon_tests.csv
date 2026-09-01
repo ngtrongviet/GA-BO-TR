@@ -1,0 +1,33 @@
+Baseline,Function,p_value,Significant,WLT
+GA-BO (EI),Branin,0.9385,No,L
+GA-BO (EI),Rosenbrock-4D,0.2152,No,W
+GA-BO (EI),Ackley-5D,0.0181,Yes,W
+GA-BO (EI),Rastrigin-5D,0.4636,No,W
+GA-BO (EI),Levy-6D,0.0002,Yes,W
+GA-BO (EI),Hartmann-6D,0.8988,No,L
+GA-BO (EI),Ackley-10D,0.0164,Yes,W
+GA-BO (EI),Rastrigin-10D,0.5508,No,L
+DE-BO (DA-EI),Branin,0.0,Yes,W
+DE-BO (DA-EI),Rosenbrock-4D,0.0,Yes,W
+DE-BO (DA-EI),Ackley-5D,0.0,Yes,W
+DE-BO (DA-EI),Rastrigin-5D,0.0133,Yes,W
+DE-BO (DA-EI),Levy-6D,0.0,Yes,W
+DE-BO (DA-EI),Hartmann-6D,0.0,Yes,W
+DE-BO (DA-EI),Ackley-10D,0.0,Yes,W
+DE-BO (DA-EI),Rastrigin-10D,0.0006,Yes,W
+Standard-BO,Branin,0.0133,Yes,W
+Standard-BO,Rosenbrock-4D,0.7147,No,L
+Standard-BO,Ackley-5D,0.0148,Yes,W
+Standard-BO,Rastrigin-5D,0.5796,No,W
+Standard-BO,Levy-6D,0.0,Yes,W
+Standard-BO,Hartmann-6D,0.6357,No,L
+Standard-BO,Ackley-10D,0.0001,Yes,W
+Standard-BO,Rastrigin-10D,0.0413,Yes,W
+Random,Branin,0.0,Yes,W
+Random,Rosenbrock-4D,0.0,Yes,W
+Random,Ackley-5D,0.0,Yes,W
+Random,Rastrigin-5D,0.0001,Yes,W
+Random,Levy-6D,0.0,Yes,W
+Random,Hartmann-6D,0.0,Yes,W
+Random,Ackley-10D,0.0,Yes,W
+Random,Rastrigin-10D,0.0,Yes,W

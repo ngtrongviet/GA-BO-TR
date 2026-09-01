@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{Engineering design problems — median final regret (IQR across 10 seeds).}
+\label{tab:eng}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrr}
+\toprule
+Method & \textbf{PressureVessel} & \textbf{SpeedReducer} & \textbf{TensionSpring} & \textbf{WeldedBeam} \\
+\midrule
+GA-BO-TR (ELA-γ, penalty) & 18123.495 (9852.550) & \textbf{170.090 (95.063)} & \textbf{0.013 (0.039)} & \textbf{2.678 (4.067)} \\
+TuRBO-1 (penalty) & 19659.502 (17124.982) & 296.703 (138.868) & 0.019 (0.032) & 3.263 (4.467) \\
+CMA-ES (penalty) & 21175.006 (15894.293) & 1281.389 (463.833) & 0.049 (1249.555) & 3.595 (1.880) \\
+HEBO (penalty) & \textbf{12487.281 (2596.795)} & 2961.992 (1699.485) & 287826.387 (631566.066) & 4.104 (1.057) \\
+Random & 12487.281 (2596.795) & 2961.992 (1699.485) & 287826.387 (631566.066) & 4.104 (1.057) \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

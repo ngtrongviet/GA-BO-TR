@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Suite-level one-versus-control comparison on BBOB-24 ($N=48$ problems), control = \gab{} (cosine $\gamma$). Each problem contributes one paired observation (its median final regret). Bold indicates significance at $\alpha=0.05$ after Holm correction across the baseline comparisons.}
+\label{tab:bbob_wilcoxon}
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lcccccl}
+\toprule
+Baseline & W & L & T & Wilcoxon & Sign & $A_{12}$ \\
+\midrule
+\gab{} (ELA-$\gamma$) & 29 & 17 & 2 & 0.1313 & 0.2076 & 0.476 (negl.) \\
+TuRBO-1 & 34 & 14 & 0 & \textbf{0.0169} & \textbf{0.0138} & 0.370 (negl.) \\
+divTuRBO & 24 & 24 & 0 & 0.6583 & 0.6655 & 0.456 (negl.) \\
+HEBO & 26 & 22 & 0 & 0.6583 & 0.6655 & 0.448 (negl.) \\
+Standard-BO (\qlogei{}) & 34 & 12 & 2 & \textbf{0.0017} & \textbf{0.0049} & 0.312 (small) \\
+CMA-ES & 45 & 3 & 0 & $\mathbf{4.8\!\times\!10^{-10}}$ & $\mathbf{5.3\!\times\!10^{-10}}$ & 0.108 (med.) \\
+\gab{} (no diversity) & 29 & 19 & 0 & 0.3222 & 0.2901 & 0.436 (negl.) \\
+GA-BO (no TR, cosine $\gamma$) & 40 & 6 & 2 & $\mathbf{6.5\!\times\!10^{-6}}$ & $\mathbf{1.1\!\times\!10^{-6}}$ & 0.212 (small) \\
+\bottomrule
+\end{tabular}
+\end{table}
